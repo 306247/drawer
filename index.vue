@@ -35,9 +35,9 @@ export default class MumuDrawer extends Vue {
     type: String,
     default: 'fixed'
   }) private position!: string
-  @Prop(String) private width: string
+  @Prop(String) private width!: string
 
-  @Ref('mdrawer') readonly mDrawer: HTMLDivElement
+  @Ref('mdrawer') readonly mDrawer!: HTMLDivElement
 
   // computed
   get drawerStyleList () {
