@@ -1,5 +1,8 @@
 <template>
-  <div class="mdrawer" :class="drawerStyleList" ref="mdrawer">
+  <div
+    class="mdrawer"
+    :class="drawerStyleList"
+    ref="mdrawer">
     <div class="mdrawer-wrap">
       <div class="mdrawer-close" @click="close"></div>
       <header class="mdrawer-header">
